@@ -9,6 +9,23 @@
     font-weight: 400;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #8b5cf6;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #7e48db;
+}
+
 .container {
     margin: 0 auto;
     width: 1440px;
@@ -750,7 +767,8 @@ footer {
         margin-top: 6px;
         margin-right: -1px;
     }
-    .first, .second {
+    .first,
+    .second {
         font-size: 8px;
     }
     .time {
@@ -763,7 +781,8 @@ footer {
     .text p {
         font-size: 15px;
     }
-    .text p:nth-child(1), .text p:nth-child(2) {
+    .text p:nth-child(1),
+    .text p:nth-child(2) {
         margin-right: 23px;
     }
     .options_btn {
@@ -784,7 +803,8 @@ footer {
         font-size: 14px;
         line-height: 22px;
     }
-    .scrubs_ingredients, .scrubs_ingredients span {
+    .scrubs_ingredients,
+    .scrubs_ingredients span {
         margin-top: 8px;
         font-size: 14px;
         line-height: 20px;
